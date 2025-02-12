@@ -7,13 +7,18 @@ function moveRandomEl(elm) {
 const moveRandom = document.querySelector("#move-random")
 
 moveRandom.addEventListener("mouseenter", function(e) {
-    moveRandomEl(e.target);
+    setTimeout(moveRandomEl(e.target), 50);
 });
 
 moveRandom.addEventListener('click', function(e) {
-    moveRandomEl(e.target);
+    setTimeout(moveRandomEl(e.target), 50);
 });
 
 moveRandom.addEventListener('touchstart', function(e) {
-    moveRandomEl(e.target);
+    setTimeout(moveRandomEl(e.target), 50);
 });
+
+function forceReflow() {
+    moveRandom.style.display = "none";
+    setTimeout(() => moveRandom.style.display = "block", 10);
+}
