@@ -66,10 +66,10 @@ body {
 
 .moving-button {
     position: absolute;
-    transform: translate(1rem);
+    transform: translateX(1rem);
 }
 
 .fixed-button {
     position: fixed;
-    transform: translate(-5.4rem);
+    transform: translateX(-5.4rem);
 }
