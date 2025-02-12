@@ -7,6 +7,9 @@
 
 html, body {
     touch-action: manipulation;
+    height: 100svh;
+    overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
 }
 
 body {
@@ -32,9 +35,9 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 20px;
-    max-width: 500px;
-    margin: 100px;
+    gap: .8rem;
+    max-width: 31.25rem;
+    margin: 6.25rem;
     z-index: 1;
 }
 
