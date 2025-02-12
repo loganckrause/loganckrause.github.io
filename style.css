@@ -8,6 +8,7 @@
 html, body {
     touch-action: manipulation;
     height: 100svh;
+    width: 100%;
     overflow-x: hidden;
     -webkit-overflow-scrolling: touch;
 }
@@ -19,6 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #a8d895;
+    padding: 10px;
 }
 
 #confetti-canvas {
